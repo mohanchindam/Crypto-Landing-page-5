@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+    outline:0;
+    color: #fff;
+    font-family: 'Poppins';
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: top 80px left 0;
+    background-size: 100vw 100vh;
+}
+/* .container{
+
+} */
+section[aria-label="navbar"]{
+    background-color: #000;
+    height: 80px;
+}
+.logo{
+    height: 30px;
+    margin-top:20px ;
+}
+.navbar{
+    position: relative;
+    margin: 0 70px;
+}
+.grow-list{
+    position: relative;
+    top:-30px;
+    margin: 0 auto;
+    width: 900px;
+    /* margin-bottom: 30px !important; */
+    /* border: 2px solid #fff; */
+}
+.list{
+    list-style: none;
+    /* margin-bottom: 300px; */
+    /* position: ; */
+}
+.list-item{
+    display: inline-block;
+    margin-right: 50px;
+}
+.line{
+    position:absolute;
+    border-right: 1px solid #fff;
+    width: 30px;
+    height: 40px;
+    left:140px;
+    top:18px
+
+}
+.list-item:first-child::after{
+    content: "";
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-left: 12px;
+    /* border:2px solid #fff; */
+    border:solid #fff;
+    width: 1px;
+    height: 1px;
+    border-width: 0 2px 2px 0;
+    padding:2px
+
+}
+.button-small{
+    position: absolute;
+    right: 50px;
+    top:22px;
+    background-color: #d31fd0;
+    padding: 6px 20px;
+    border-radius: 7px;
+}
+section[aria-label="hero"]{
+    margin-top: 100px;
+}
+.hero{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.hero-heading{
+    /* position: relative; */
+    /* margin-top: 100px; */
+    /* border: 2px solid white; */
+    margin:0 auto;
+    font-family: 'Montserrat';
+    width: 800px;
+    font-size: 70px;
+    text-align:center;
+
+}
+.hero-description{
+    font-size: 27px;
+}
+.button-large{
+    /* position: absolute;
+    right: 50px;
+    top:22px; */
+    margin-top:40px;
+    background-color: #d31fd0;
+    padding: 12px 23px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+.button-large::first-letter{
+    text-transform: uppercase;
+}
