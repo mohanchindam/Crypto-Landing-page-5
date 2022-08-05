@@ -10,7 +10,7 @@
 ![Project-05 Preview](./Project-05.jpg)
 
 Project is deployed on **Netlify**:
-- You can preview the project here, [**Crypto Landing page**]()
+- You can preview the project here, [**Crypto Landing page**](https://crypto-landing-page-5.netlify.app/)
 
 
 
